@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.5;
+    letter-spacing: .2;
+}
+
+/* Make custom classes to apply on specific elements*/
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+.capital {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #4834C1, #575ADD);
+    border: none;
+    padding: .8rem 1.5rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header Section */
+.nav-menu ul li{
+    float: right;
+    list-style: none;
+    padding: 1rem 0;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #3C3C3C;
+    margin-right: 2.5rem;
+}
+#header,.about-section,.projects{
+    height: 100vh;
+}
+
+.hello {
+    color: #F59760;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.rob {
+    color: #FACC61;
+}
+
+.hello-rob {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.lead-text {
+    color: #3E3E3E;
+}
+
+.banner {
+    width: 45%;
+    float: left;
+}
+
+.banner.text {
+    margin: 8.5rem 2rem 8.5rem 6rem;
+}
+
+.banner.text p {
+    width: 65%;
+}
+
+.banner.pic img {
+    width: 70%;
+    margin-left: 3rem;
+}
+
+
+/* Main Sections */
+
+/* About Section */
+.about-medium,.project-medium,.skill-medium{
+    font-size: 48px;
+}
+
+.about.pic img{
+    margin-left: 5rem;
+}
+.about.text{
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 5rem;
+}
+.about.text p{
+    width: 85%;
+}
+
+/* Projects Section */
+.projects{
+    background: rgba(68, 68, 68, .1);
+}
+.gym-project{
+    width: 28%;
+    float: left;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0,.7);
+}
+.gym-project h2{
+    padding: 1rem 0;
+    color: #363958;
+}
+.gym-project p{
+    color: #6C6C6C;
+}
+.project-1,.project-2,.project-3{
+    background: #fff;
+    padding: 1rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+.project-1{
+    margin-left: 5rem;
+}
+.latest{
+    color: #FACC61;
+}
+.project-medium,.skills{
+    padding: 4rem 0;
+}
+
+/* Skills Section */
+.skills {
+    background: #333;
+}
+
+.web-skills {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+.html-skill,
+.css-skill,
+.sass-skill,
+.bootstrap-skill,
+.javascript-skill ,
+.reactjs-skill,
+.materialui-skill,
+.nodejs-skill,
+.expressjs-skill,
+.mongodb-skill{
+    margin-top: .3rem;
+}
+
+.html-skill .skill-percentage {
+    width: 95%;
+}
+
+.css-skill .skill-percentage {
+    width: 90%;
+}
+
+.sass-skill .skill-percentage,
+.javascript-skill .skill-percentage,
+.reactjs-skill .skill-percentage,
+.expressjs-skill .skill-percentage,
+.mongodb-skill .skill-percentage {
+    width: 80%;
+}
+
+.bootstrap-skill .skill-percentage {
+    width: 85%;
+}
+
+.materialui-skill .skill-percentage {
+    width: 75%;
+}
+
+.nodejs-skill .skill-percentage {
+    width: 70%;
+}
+
+.skill-percentage {
+    background: #FACC61;
+    text-align: right;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #000;
+}
+
+.percentage-section {
+    width: 100%;
+    background: #ecab32;
+    border-radius: 10px;
+
+}
+
+/* Work Section */
+.work {
+    position: relative;
+}
+
+.work-img img{
+    display: block;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.larger-work {
+    font-size: 64px;
+}
+
+.larger-work.text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: #fff;
+}
+
+.work-text button {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+.work-text {
+    float: left;
+}
+
+/* Footer Section */
+#footer{
+    display: block;
+}
+.smaller-medium {
+    font-size: 24px;
+}
+
+.larger-medium {
+    font-size: 36px;
+}
+
+.footer-images {
+    display: inline-block;
+    margin: auto;
+}
+
+.footer-img {
+    float: left;
+}
+
+.footer-img img {
+    width: 30px;
+    margin-right: .5rem;
+}
